@@ -27,7 +27,7 @@ class graph {
     translate(xStart, yStart);
     for (int j=0; j < graphWidth; j++) {
       if (j>0) {
-        line(j-1, -coordinates[j-1]*5, j, -coordinates[j]*5);
+        line(j-1, -coordinates[j-1], j, -coordinates[j]);
       }
     }
     popMatrix();
